@@ -1,0 +1,20 @@
+site_name: Guia CorePlay
+site_description: Guia de instalação da CorePlay TV na Smart TV, TV Box, celular e computador.
+site_url: https://coreplay-guia.readthedocs.io/
+docs_dir: docs
+exclude_docs: |
+  requirements.txt
+theme:
+  name: readthedocs
+  locale: pt_BR
+nav:
+  - Início: index.md
+  - Smart TV Samsung e LG: smart-tv-samsung-lg.md
+  - TV Box Android: tv-box-android.md
+  - Celular: celular.md
+  - Computador: computador.md
+  - Perguntas frequentes: perguntas-frequentes.md
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
